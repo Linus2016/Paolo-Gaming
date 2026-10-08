@@ -15,8 +15,7 @@ def startseite():
         lektion = 1
     else:
         wochen = (jetzt.date() - KURS_DATUM.date()).days // 7
-        lektion = wochen + 2
-
+        lektion = 1
     return render_template(
         "index.html",
         lektion=lektion
