@@ -4,7 +4,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # Fester Termin
-KURS_DATUM = datetime(2026, 10, 8, 18, 9)
+KURS_DATUM = datetime(2026, 10, 9, 18, 9)
 
 @app.route("/")
 def startseite():
